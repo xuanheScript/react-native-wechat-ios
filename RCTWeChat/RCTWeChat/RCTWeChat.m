@@ -7,8 +7,8 @@
 //
 
 #import "RCTWeChat.h"
-#import "RCTBridge.h"
-#import "RCTEventDispatcher.h"
+#import <React/RCTBridge.h>
+#import <React/RCTEventDispatcher.h>
 #import "WXApi.h"
 #import "WXApiObject.h"
 #import "SendMessageToWXReq+requestWithTextOrMediaMessage.h"
